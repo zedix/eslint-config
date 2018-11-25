@@ -1,0 +1,43 @@
+{
+  "name": "@zedix/eslint-config",
+  "version": "1.0.0",
+  "author": "@zedix",
+  "license": "MIT",
+  "description": "@zedix's eslint shareable config for vue.js projects",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedix/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zedix/eslint-config/issues"
+  },
+  "homepage": "https://github.com/zedix/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-shareable-configs",
+    "eslint-configurations",
+    "vue"
+  ],
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "5.0.0-beta.5",
+    "prettier": "^1.15.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-vue": "5.0.0-beta.5",
+    "prettier": "^1.15.2"
+  }
+}
