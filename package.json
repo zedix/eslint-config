@@ -1,9 +1,9 @@
 {
   "name": "@zedix/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "@zedix",
   "license": "MIT",
-  "description": "@zedix's eslint shareable config for vue.js projects",
+  "description": "@zedix's eslint shareable configs",
   "main": "index.js",
   "publishConfig": {
     "access": "public"

@@ -3,9 +3,6 @@ module.exports = {
     './index.js',
     // https://github.com/vuejs/eslint-plugin-vue#bulb-rules
     'plugin:vue/strongly-recommended',
-    // https://github.com/prettier/eslint-config-prettier
-    'prettier',
-    'prettier/standard',
   ],
 
   rules: {

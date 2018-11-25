@@ -12,6 +12,9 @@ module.exports = {
   extends: [
     // https://github.com/standard/standard/blob/master/RULES.md
     'standard',
+    // https://github.com/prettier/eslint-config-prettier
+    'prettier',
+    'prettier/standard',
   ],
 
   rules: {
