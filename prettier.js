@@ -1,5 +1,6 @@
 module.exports = {
   $schema: 'http://json.schemastore.org/prettierrc',
+  arrowParens: 'avoid',
   bracketSpacing: true,
   htmlWhitespaceSensitivity: 'css',
   printWidth: 100,
@@ -13,8 +14,8 @@ module.exports = {
     {
       files: 'package*.json',
       options: {
-        printWidth: 1000,
+        printWidth: Infinity,
       },
     },
   ],
-}
+};

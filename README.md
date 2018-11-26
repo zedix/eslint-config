@@ -1,6 +1,6 @@
 # @zedix/eslint-config
 
-![version](https://img.shields.io/badge/version-1.0.2-blue.svg?maxAge=2592000)
+![version](https://img.shields.io/badge/version-1.0.3-blue.svg?maxAge=2592000)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) with [Prettier](https://prettier.io/)
 
@@ -42,7 +42,9 @@ In your `.prettierrc.js`:
 
 ```js
 // .prettierrc.js
-const prettier = require('@zedix/eslint-config/vue');
-
-module.exports = prettier;
+module.exports = require('@zedix/eslint-config/prettier');
 ```
+
+## References
+
+[Awesome ESLint](https://github.com/dustinspecker/awesome-eslint)

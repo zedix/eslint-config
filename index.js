@@ -1,12 +1,20 @@
 module.exports = {
-  // Stop looking in parent folders once ESLint finds a configuration with "root": true
+  /**
+   * Stop looking in parent folders once ESLint finds a configuration with "root": true.
+   *
+   * @see {@link https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy|root}
+   */
   root: true,
 
-  // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
+  /**
+   * @see {@link https://eslint.org/docs/user-guide/configuring#specifying-parser-options|parserOptions}
+   */
   parserOptions: {
+    ecmaVersion: 2018,
     // Use Babel parser, as ESLint does not natively support experimental ECMAScript
     // language features such as 'dynamic import' or 'class properties'
-    parser: 'babel-eslint',
+    parser: 'babel-eslint', // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
+    sourceType: 'module',
   },
 
   extends: [
@@ -18,14 +26,6 @@ module.exports = {
   ],
 
   rules: {
-    // Allows omitting parens when there is only one argument
-    // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': ['error', 'as-needed'],
-
-    // Enforce consistent indentation
-    // https://eslint.org/docs/rules/indent
-    indent: ['error', 2],
-
     'no-console': 'warn',
   },
-}
+};

@@ -1,12 +1,14 @@
 {
   "name": "@zedix/eslint-config",
-  "version": "1.0.2",
-  "author": "@zedix",
-  "license": "MIT",
+  "version": "1.0.3",
   "description": "@zedix's eslint shareable configs",
+  "homepage": "https://github.com/zedix/eslint-config#readme",
+  "author": "@zedix",
+  "copyright": "Copyright (c) 2018-present",
+  "license": "MIT",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
+  "scripts": {
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/zedix/eslint-config/issues"
   },
-  "homepage": "https://github.com/zedix/eslint-config#readme",
   "keywords": [
     "eslint",
     "eslint-config",

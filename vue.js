@@ -51,18 +51,19 @@ module.exports = {
           // Enforce self-closing on HTML void elements (<img/>)
           void: 'always',
           normal: 'always',
-          component: 'always'
+          component: 'always',
         },
         svg: 'always',
-        math: 'always'
-      }
+        math: 'always',
+      },
     ],
 
     'vue/html-closing-bracket-newline': [
-      'error', {
-        'singleline': 'never',
-        'multiline': 'always'
-      }
+      'error',
+      {
+        singleline: 'never',
+        multiline: 'always',
+      },
     ],
 
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/max-attributes-per-line.md
@@ -70,13 +71,13 @@ module.exports = {
       'error',
       {
         // Number of maximum attributes per line when the opening tag is in a single line.
-        'singleline': 5,
+        singleline: 5,
         // Number of maximum attributes per line when a tag is in multiple lines.
-        'multiline': {
-          'max': 1,
-          'allowFirstLine': false
-        }
-      }
+        multiline: {
+          max: 1,
+          allowFirstLine: false,
+        },
+      },
     ],
 
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/multiline-html-element-content-newline.md
