@@ -1,6 +1,6 @@
 {
   "name": "@zedix/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "@zedix",
   "license": "MIT",
   "description": "@zedix's eslint shareable configs",
