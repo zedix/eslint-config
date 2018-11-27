@@ -1,6 +1,6 @@
 # @zedix/eslint-config
 
-![version](https://img.shields.io/badge/version-1.0.5-blue.svg?maxAge=2592000)
+![version](https://img.shields.io/github/package-json/v/zedix/eslint-config.svg?maxAge=2592000)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) with [Prettier](https://prettier.io/)
 

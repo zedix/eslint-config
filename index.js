@@ -1,18 +1,14 @@
 module.exports = {
-  /**
-   * Stop looking in parent folders once ESLint finds a configuration with "root": true.
-   *
-   * @see {@link https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy|root}
-   */
+  // Stop looking in parent folders once ESLint finds a configuration with "root": true.
+  // https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy
   root: true,
 
-  /**
-   * @see {@link https://eslint.org/docs/user-guide/configuring#specifying-parser-options|parserOptions}
-   */
+  // https://eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
-    // Use Babel parser, as ESLint does not natively support experimental
-    // ECMAScrip language features such as 'dynamic import' or 'class properties'
-    parser: 'babel-eslint', // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
+    // Use `babel-eslint` parser, as ESLint does not natively support experimental
+    // ECMAScript features such as 'dynamic import' or 'class properties'.
+    // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
+    parser: 'babel-eslint',
   },
 
   extends: [
@@ -28,7 +24,12 @@ module.exports = {
   ],
 
   rules: {
-    'no-debugger': 'error',
+    // Disallow the use of console.
+    // http://eslint.org/docs/rules/no-console
     'no-console': 'error',
+
+    // Disallow the use of debugger.
+    // @see http://eslint.org/docs/rules/no-debugger
+    'no-debugger': 'error',
   },
 };
