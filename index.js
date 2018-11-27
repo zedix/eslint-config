@@ -29,7 +29,7 @@ module.exports = {
     'no-console': 'error',
 
     // Disallow the use of debugger.
-    // @see http://eslint.org/docs/rules/no-debugger
+    // http://eslint.org/docs/rules/no-debugger
     'no-debugger': 'error',
   },
 };
