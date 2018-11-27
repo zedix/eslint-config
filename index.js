@@ -10,22 +10,25 @@ module.exports = {
    * @see {@link https://eslint.org/docs/user-guide/configuring#specifying-parser-options|parserOptions}
    */
   parserOptions: {
-    ecmaVersion: 2018,
-    // Use Babel parser, as ESLint does not natively support experimental ECMAScript
-    // language features such as 'dynamic import' or 'class properties'
+    // Use Babel parser, as ESLint does not natively support experimental
+    // ECMAScrip language features such as 'dynamic import' or 'class properties'
     parser: 'babel-eslint', // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
-    sourceType: 'module',
   },
 
   extends: [
     // https://github.com/standard/standard/blob/master/RULES.md
     'standard',
+    // Turns off all rules that are unnecessary or might conflict with Prettier
     // https://github.com/prettier/eslint-config-prettier
     'prettier',
+    // 'standard/array-bracket-even-spacing': 'off',
+    // 'standard/computed-property-even-spacing': 'off',
+    // 'standard/object-curly-even-spacing': 'off'
     'prettier/standard',
   ],
 
   rules: {
-    'no-console': 'warn',
+    'no-debugger': 'error',
+    'no-console': 'error',
   },
 };

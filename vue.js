@@ -1,8 +1,9 @@
 module.exports = {
   extends: [
-    './index.js',
     // https://github.com/vuejs/eslint-plugin-vue#bulb-rules
     'plugin:vue/strongly-recommended',
+    // standard + prettier
+    './index.js',
   ],
 
   rules: {
@@ -86,4 +87,18 @@ module.exports = {
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/singleline-html-element-content-newline.md
     'vue/singleline-html-element-content-newline': 'off',
   },
+
+  overrides: [
+    {
+      files: ['**/*.unit.js'],
+      env: { jest: true },
+      globals: {
+        mount: false,
+        shallowMount: false,
+        shallowMountView: false,
+        createComponentMocks: false,
+        createModuleStore: false,
+      },
+    },
+  ],
 };

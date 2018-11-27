@@ -2,13 +2,14 @@ module.exports = {
   $schema: 'http://json.schemastore.org/prettierrc',
   arrowParens: 'avoid',
   bracketSpacing: true,
+  endOfLine: 'lf', // Default: 'auto'
   htmlWhitespaceSensitivity: 'css',
-  printWidth: 100,
-  proseWrap: 'never',
+  printWidth: 80,
+  proseWrap: 'never', // Default: 'preserve'
   semi: true,
-  singleQuote: true,
+  singleQuote: true, // Default: false
   tabWidth: 2,
-  trailingComma: 'es5',
+  trailingComma: 'es5', // Default: 'none'
   useTabs: false,
   overrides: [
     {
