@@ -22,7 +22,11 @@ In your `.eslintrc.js`:
 module.exports = {
   extends: ['@zedix/eslint-config'],
 };
+```
 
+or
+
+```js
 // .eslintrc.js
 module.exports = {
   extends: ['@zedix/eslint-config/vue'],
