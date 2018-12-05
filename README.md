@@ -8,7 +8,7 @@
 ## Installation
 
 ```
-$ yarn add --dev eslint prettier https://github.com/zedix/eslint-config.git#v1.x.x
+$ yarn add --dev eslint prettier zedix/eslint-config.git#v1.x.x
 ```
 
 ## Usage
