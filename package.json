@@ -1,6 +1,6 @@
 {
   "name": "@zedix/eslint-config",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "@zedix's eslint shareable configs",
   "homepage": "https://github.com/zedix/eslint-config#readme",
   "author": "@zedix",
@@ -25,16 +25,16 @@
     "vue"
   ],
   "dependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.2.2",
-    "eslint-config-prettier": "^6.1.0",
-    "eslint-config-standard": "^14.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "prettier": "^1.18.2"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "prettier": "^2.4.1"
   },
   "peerDependencies": {
     "eslint": "^6.2.2",

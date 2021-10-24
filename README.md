@@ -1,7 +1,6 @@
 # @zedix/eslint-config
 
-![version](https://img.shields.io/github/package-json/v/zedix/eslint-config.svg?maxAge=60)
-![tag](https://img.shields.io/github/tag/zedix/eslint-config.svg?maxAge=60)
+![version](https://img.shields.io/github/package-json/v/zedix/eslint-config.svg?maxAge=60) ![tag](https://img.shields.io/github/tag/zedix/eslint-config.svg?maxAge=60)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) with [Prettier](https://prettier.io/)
 
@@ -39,6 +38,16 @@ Alternatively, you can add an eslint config in the `package.json`:
 {
   "eslintConfig": {
     "extends": "@zedix/eslint-config/vue"
+  }
+}
+```
+
+For Vue 3:
+
+```json
+{
+  "eslintConfig": {
+    "extends": "@zedix/eslint-config/vue3"
   }
 }
 ```
