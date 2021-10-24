@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#bulb-rules
-    'plugin:vue3/strongly-recommended',
+    'plugin:vue/vue3-strongly-recommended',
     // standard + prettier
     './index.js',
   ],
@@ -10,10 +10,6 @@ module.exports = {
     // Disable check of attribute hyphenation
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/attribute-hyphenation.md
     'vue/attribute-hyphenation': 'off',
-
-    // Allow adding multiple root nodes to the template
-    // https://eslint.vuejs.org/rules/no-multiple-template-root.html
-    'vue/no-multiple-template-root': 'off',
 
     // Enforce PascalCase component names in templates
     // https://vuejs.org/v2/style-guide/#Component-name-casing-in-templates-strongly-recommended

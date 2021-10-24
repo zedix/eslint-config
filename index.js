@@ -3,12 +3,14 @@ module.exports = {
   // https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy
   root: true,
 
+  // Use `@babel/eslint-parser` parser, as ESLint does not natively support experimental
+  // ECMAScript features such as 'dynamic import' or 'class properties'.
+  // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
+  parser: '@typescript-eslint/parser',
+
   // https://eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
-    // Use `babel-eslint` parser, as ESLint does not natively support experimental
-    // ECMAScript features such as 'dynamic import' or 'class properties'.
-    // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
-    parser: 'babel-eslint',
+    requireConfigFile: false,
   },
 
   extends: [
