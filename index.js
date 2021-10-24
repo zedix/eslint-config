@@ -10,6 +10,7 @@ module.exports = {
 
   // https://eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
+    sourceType: 'module',
     requireConfigFile: false,
   },
 

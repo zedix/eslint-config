@@ -1,4 +1,13 @@
 module.exports = {
+  parser: 'vue-eslint-parser',
+
+  // https://eslint.org/docs/user-guide/configuring#specifying-parser-options
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    sourceType: 'module',
+    requireConfigFile: false,
+  },
+
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#bulb-rules
     'plugin:vue/strongly-recommended',
@@ -89,6 +98,11 @@ module.exports = {
 
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/singleline-html-element-content-newline.md
     'vue/singleline-html-element-content-newline': 'off',
+  },
+
+  globals: {
+    $nuxt: true,
+    $fetch: true,
   },
 
   overrides: [
