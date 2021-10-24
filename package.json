@@ -1,6 +1,6 @@
 {
   "name": "@zedix/eslint-config",
-  "version": "1.0.13",
+  "version": "1.2.0",
   "description": "@zedix's eslint shareable configs",
   "homepage": "https://github.com/zedix/eslint-config#readme",
   "author": "@zedix",
