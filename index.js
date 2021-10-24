@@ -6,7 +6,7 @@ module.exports = {
   // Use `@babel/eslint-parser` parser, as ESLint does not natively support experimental
   // ECMAScript features such as 'dynamic import' or 'class properties'.
   // https://github.com/vuejs/eslint-plugin-vue#what-is-the-use-the-latest-vue-eslint-parser-error
-  parser: '@typescript-eslint/parser',
+  parser: '@babel/eslint-parser',
 
   // https://eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
