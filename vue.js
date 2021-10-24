@@ -4,6 +4,7 @@ module.exports = {
   // https://eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
     parser: '@babel/eslint-parser',
+    ecmaVersion: 'latest',
     sourceType: 'module',
     requireConfigFile: false,
   },
