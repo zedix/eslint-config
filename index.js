@@ -17,10 +17,6 @@ module.exports = {
     // Turns off all rules that are unnecessary or might conflict with Prettier
     // https://github.com/prettier/eslint-config-prettier
     'prettier',
-    // 'standard/array-bracket-even-spacing': 'off',
-    // 'standard/computed-property-even-spacing': 'off',
-    // 'standard/object-curly-even-spacing': 'off'
-    'prettier/standard',
   ],
 
   rules: {
