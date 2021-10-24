@@ -11,6 +11,10 @@ module.exports = {
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/attribute-hyphenation.md
     'vue/attribute-hyphenation': 'off',
 
+    // Allow adding multiple root nodes to the template
+    // https://eslint.vuejs.org/rules/no-multiple-template-root.html
+    'vue/no-multiple-template-root': 'off',
+
     // Enforce PascalCase component names in templates
     // https://vuejs.org/v2/style-guide/#Component-name-casing-in-templates-strongly-recommended
     'vue/component-name-in-template-casing': [
